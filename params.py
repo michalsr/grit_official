@@ -1,0 +1,12 @@
+import os 
+PREFIX = f'/shared/rsaas/michal5'
+GRIT = {'base':'GRIT','images':'GRIT/images','samples':'GRIT/samples','output_options':'GRIT/output_options'}
+SAMPLES_URL = 'https://ai2-prior-grit.s3.us-west-2.amazonaws.com/public/grit_data.zip'
+DTU = 'https://ai2-prior-grit.s3.us-west-2.amazonaws.com/public/dtu_images.tar.gz'
+BLENDED_MVS = 'https://ai2-prior-grit.s3.us-west-2.amazonaws.com/public/blended_mvs_images.tar.gz'
+CONSTRUCTION = 'https://ai2-prior-grit.s3.us-west-2.amazonaws.com/public/construction_images.tar.gz'
+COCO_TRAIN_2014 = 'http://images.cocodataset.org/zips/train2014.zip'
+COCO_TEST_2015 = 'http://images.cocodataset.org/zips/test2015.zip'
+REFCLEF = 'https://bvisionweb1.cs.unc.edu/licheng/referit/data/images/saiapr_tc-12.zip'
+NYUV2 = 'http://horatio.cs.nyu.edu/mit/silberman/nyu_depth_v2/nyu_depth_v2_labeled.mat'
+DISTORTIONS = 'https://ai2-prior-grit.s3.us-west-2.amazonaws.com/public/distortions.tar.gz'
