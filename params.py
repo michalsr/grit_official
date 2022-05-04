@@ -1,6 +1,10 @@
 import os 
-PREFIX = f'/shared/rsaas/michal5'
-GRIT = {'base':'GRIT','images':'GRIT/images','samples':'GRIT/samples','output_options':'GRIT/output_options'}
+PREFIX = f'/home/michal5'
+DATA_DIR = '/data/michal5'
+GRIT_BASE = DATA_DIR+'/GRIT'
+GRIT_IMAGES = GRIT_BASE+'/images'
+GRIT_SAMPLES = GRIT_BASE+'/samples'
+GRIT_OUTPUT_OPTIONS = GRIT_BASE + '/output_options'
 SAMPLES_URL = 'https://ai2-prior-grit.s3.us-west-2.amazonaws.com/public/grit_data.zip'
 DTU = 'https://ai2-prior-grit.s3.us-west-2.amazonaws.com/public/dtu_images.tar.gz'
 BLENDED_MVS = 'https://ai2-prior-grit.s3.us-west-2.amazonaws.com/public/blended_mvs_images.tar.gz'

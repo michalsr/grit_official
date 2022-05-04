@@ -39,7 +39,6 @@ tasks_to_distort:
   - normal
 
 subsets_to_distort:
-  - ablation
   - test 
 
 grit:
